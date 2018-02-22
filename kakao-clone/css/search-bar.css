@@ -14,12 +14,12 @@
   text-align: center;
 }
 
-.search-bar input:focus {
-  outline: none;
-}
-
 .search-bar input:placeholder {
   text-align: center;
+}
+
+.search-bar input:focus {
+  outline: none;
 }
 
 .search-bar i {
