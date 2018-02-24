@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Friends</title>
   </head>
   <body>
-    <header>
-      <div class="header__top"></div>
+    <header class="top-header">
+      <div class="header__top">
         <div class="header__column">
           <!-- plane icon -->
           <i class="fa fa-fighter-jet"></i>
@@ -24,12 +25,14 @@
           <i class="fa fa-bluetooth-b"></i>
           <span class="header__battery">66% <i class="fa fa-battery-full"></i><!-- battery icon --></span>
         </div>
+      </div>
+
       <div class="header__bottom">
         <div class="header__column">
           <span class="header__text">Manage</span>
         </div>
         <div class="header__column">
-          <span class="header_text">Friends <span class="header__number">1</span></span>
+          <span class="header__text">Friends <span class="header__number">1</span></span>
         </div>
         <div class="header__column">
           <i class="fa fa-cog fa-lg"></i>
@@ -50,14 +53,16 @@
 
         <div class="friends_section-rows">
           <div class="friends__section-row">
-            <a href="profile.html">
-              <img src="images/avatar.jpg" alt="">
-              <span class="friends__section-name">Seok</span>
+            <img src="images/avatar.jpg" alt="">
+            <a href="profile.html" class="friends__section-name">
+              Seok
             </a>
           </div>
           <div class="friends__section-row">
             <img src="images/avatar.jpg" alt="">
-            <span class="friends__section-name">Friends' Names Display</span>
+            <a href="profile.html" class="friends__section-name">
+              <span class="friends__section-name">Friends' Names Display</span>
+            </a>
           </div>
         </div>
       </section>
@@ -66,9 +71,8 @@
         <header class="friends__section-header">
           <h6 class="friends__section-title"></h6>
         </header>
-
         <div class="friends_section-rows">
-          <div class="friends__section-row">
+          <div class="friends__section-row with-tagline">
             <div class="friends__section-column">
               <img src="images/avatar.jpg" alt="">
               <span class="friends__section-name">Friends</span>
